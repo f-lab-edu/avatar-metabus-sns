@@ -33,3 +33,24 @@
 모임 공간
 
 각 캐릭터끼리 움직여서 특정 공간에 모여서 채팅할 수 있는 기능
+
+-[x] lint (solarlint 설치)
+-[x] mysql version tag settings
+- 회원가입 로그인
+	- session
+		- 직접 구현해보기
+- 패스워드 찾기
+	- 메일로 패스워드 변경 링크 보내서 변경하기
+- ddl
+	- 사용자 테이블
+- database schema version 관리
+	- [x] flyway
+- spring @profiles
+	- local
+	- dev
+	- prod
+-[x] yaml
+- spring actuator
+	- basic auth
+	- health, info
+	- prometheus

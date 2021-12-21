@@ -1,5 +1,12 @@
 version: "2.2"
 services:
+#  flyway:
+#    image: dhoer/flyway:alpine
+#    command: -url=jdbc:mysql://db -user=root -password=Earth1234! migrate
+#    volumes:
+#      - .:/flyway/sql
+#    depends_on:
+#      - mysql
   sql-server-db:
     container_name: sql-server-db
     image: mysql

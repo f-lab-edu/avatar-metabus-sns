@@ -1,3 +1,3 @@
 docker-compose up -d
-docker exec -it CONTAINER_ID /bin/bash
+docker exec -it sql-server-db /bin/bash
 mysql -u root -p;

@@ -1,0 +1,17 @@
+server:
+  port: '8080'
+  compression:
+    enabled: 'true'
+spring:
+  config:
+    use-legacy-processing: 'true'
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: 'jdbc:mysql://localhost:3306/mybatis?&serverTimezone'
+    username: root
+    password: Earth1234!
+    mapper-locations: 'classpath:/mapper/**/*.xml'
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
